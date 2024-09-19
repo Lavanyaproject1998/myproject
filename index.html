@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <h1>ONLINE KITCHEN</h1>
+    <form onsubmit="return validate();">
+        <div class="container">
+            <!-- Username Field -->
+            <label for="uname"><b>Username</b></label>
+            <input type="text" id="uname" name="username" placeholder="Enter your username">
+            <br><span id="msg"></span><br> <!-- Moved span for message below input -->
+            <br>
+
+            <!-- Password Field -->
+            <label for="pword"><b>Password</b></label>
+            <input type="password" id="pword" name="password" placeholder="Enter your password">
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Login</button>
+        </div>
+    </form>
+</body>
+</html>

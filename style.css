@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+   padding-left: 135%;
+   height: 240;
+   font-size: 190%;
+  }
+
+  body {
+    background-image: url('zomato.jpeg');
+    background-repeat: no-repeat;
+     border: 1px;
+     width: 50%;
+     height: 30%;
+    
+    }
+
+    form {
+
+      padding-left: 135%;
+     height: 290;
+
+    }
+     p {
+    display: inline-block; 
+  }
+
+
+
+
+  
+  

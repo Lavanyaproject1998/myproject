@@ -1,0 +1,140 @@
+h1 {
+    color: red;
+    padding-left: 120px; /* Adjusted for better alignment */
+    height: 140px; /* Added unit */
+    font-size: 4em; /* Increased for better visibility of a heading */
+    font-family: 'Arial', sans-serif; /* Example font */
+    font-weight: bold; /* Makes the text bold */
+    font-style: italic; /* Makes the text italic */
+}
+
+/* nextpage.css */
+h2 {
+    font-size: 1.5em;
+    color: #555;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Scrolling effect */
+h2::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 40%;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
+
+/* Keyframes for scrolling effect */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+body {
+    background-image: url('plain1.jpg');
+    background-repeat: repeat;
+     border: 1px;
+     width:100%;
+     height: 60%;
+    
+    }
+
+
+    /* Container for the search input and button */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+    margin: 20px; /* Add some space around the container */
+}
+
+/* Styling for the search input */
+.search-input {
+    width: 400px; /* Increased width for a larger search bar */
+    height: 50px; /* Increased height for a larger input */
+    padding: 0 20px; /* Increased padding inside the input */
+    border: 2px solid #ccc; /* Slightly thicker border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Larger text inside the input */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a subtle shadow for depth */
+}
+
+/* Styling for the search button */
+.search-button {
+    height: 50px; /* Match the height of the input */
+    padding: 30px; /* Add more padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    font-size: 18px; /* Match the font size of the input */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Change button background color on hover */
+.search-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+    padding-left: 600px; /* Adjust the value as needed */
+    text-align: left; /* Optional: Align text to the right */
+}
+p{
+    padding-left: 30px;
+    text-align: left;
+}
+
+/* General hotel container styling for all hotels */
+.hotel-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between hotel entries */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border to separate hotel entries */
+}
+
+/* Common logo styling for all hotels */
+.hotel-logo {
+    width: 100px; /* Ensure same size for all hotel logos */
+    height: auto;
+    margin-right: 20px; /* Consistent space between logo and text */
+}
+
+/* Common name styling for all hotel names */
+.hotel-name {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px; /* Same font size for all hotel names */
+}
+
+/* Common menu list styling for all hotels */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.menu li {
+    padding: 5px;
+    font-size: 16px;
+}

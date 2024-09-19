@@ -1,0 +1,22 @@
+body {
+     border: 1px;
+     width: 50%;
+     height: 30%;
+     color: red;
+     font-size: 90%;
+    padding-left: 140px;
+    padding-top: 40px;
+    }
+    input{
+      font-size: 30px;
+      border-radius: 10px;
+      box-sizing: 50%;
+    }
+    select{
+      font-size: 19px;
+      border-radius: 10px;
+      box-sizing: 50%;
+    }
+    ::placeholder{
+      font-size: 19px; 
+    }
